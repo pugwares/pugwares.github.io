@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root{
+    --headerBackground:#9fffae;
+    --headerShadow:#68dfd1;
+}
+body{
+    background-color: black;
+}
+.hdBG{
+    background-color:var(--headerBackground);
+    
+}
+.hdSD{
+    border-bottom:3px solid black;
+    box-shadow:0 calc((10px + 1vh + 1vw)/2) 0 0 var(--headerShadow);
+}
+header{
+    height:6vw;
+    font-family:"Jersey 10","Bahnschrift SemiBold", monospace;
+}
+header img{
+    height:100%;
+    object-fit:contain;
+}
+h1{
+    font-size:4vw;
+}
