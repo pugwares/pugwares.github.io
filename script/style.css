@@ -39,6 +39,13 @@ h1{
 .apg_scroll{
    animation: apg_scroll 12s linear infinite; 
 }
+a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+a:hover{
+    color:#0F0;
+}
 @keyframes ci_scroll{
     from{
         transform: translateX(0%);
