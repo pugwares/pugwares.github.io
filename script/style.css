@@ -30,6 +30,9 @@ header img{
 h1{
     font-size:4vw;
 }
+section{
+    margin:0 0 2.5% 0;
+}
 .ci_scroll{
     animation: ci_scroll 20s linear infinite;
 }
@@ -46,12 +49,11 @@ a{
 a:hover{
     color:#0F0;
 }
-section{
-    margin:0 0 2.5% 0;
-}
+
 .title{
     margin:5% 0 0 0;
 }
+
 @keyframes ci_scroll{
     from{
         transform: translateX(0%);
