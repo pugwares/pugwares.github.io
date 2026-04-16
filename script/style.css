@@ -34,13 +34,19 @@ section{
     margin:0 0 2.5% 0;
 }
 .ci_scroll{
+    text-align: center;
     animation: ci_scroll 20s linear infinite;
+}
+.egg_scroll{
+    text-align: center;
+    animation: egg_scroll 15s linear infinite;
 }
 .green_text{
     color:#0F0;
 }
 .apg_scroll{
-   animation: apg_scroll 12s linear infinite; 
+    text-align: center;
+    animation: apg_scroll 12s linear infinite; 
 }
 a{
     color:#FFFFFF;
@@ -52,6 +58,10 @@ a:hover{
 
 .title{
     margin:5% 0 0 0;
+}
+img{
+    image-rendering: pixelated;
+    object-fit:contain;
 }
 
 @keyframes ci_scroll{
@@ -68,5 +78,13 @@ a:hover{
     }
     to{
     transform: translateX(-150%);
+    }
+}
+@keyframes egg_scroll{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+    transform: translateX(-183.3333%);
     }
 }
